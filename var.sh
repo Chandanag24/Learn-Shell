@@ -3,7 +3,7 @@
 #substitution variables
 ##command substitution
 DATE=$(date)
-echo today date is $(DATE)
+echo Today Date is $DATE
 #Arthematic substitution
-ADD=$((2+2))
-echo Add of 2+2 is $((ADD))
+ADD=$(( 2+2 ))
+echo ADD of 2+2 = $ADD
